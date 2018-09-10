@@ -1,3 +1,37 @@
+//Respostas:
+//a) o valor espero para o printf seria 10, mas como foi mudado o valor que estava guardado na memoria p1 para 20
+//o valor de Valor também e mudado, pois ele está guardado no mesmo lugar da memoria.
+
+//b) o valor espero para o printf seria 26.5, mas como foi mudado o valor que estava guardado na memoria p2 para 29.0
+//o valor de Temp também e mudado, pois ele está guardado no mesmo lugar da memoria.
+
+//c) o printf ira mostrar o primeira letra da palavra Ponteiro.
+
+//d) o printf ira mostrar a quinta letra da palavra Ponteiro.
+
+//e) o valor espero para o printf todo o nome Ponteiro, mas como variavel que guarda na memoria p3 e do tipo char,
+//so aceita uma variavel, ou seja, o valor monstrado no printf sera o primeira letra do nome ponteiro.
+
+//f) o printf ira mostrar a quinta letra da palavra Ponteiro.
+
+//g) como decrementou uma unidade, ira aprecer a quarta letra da palavra Ponteiro.
+
+//h) como a variavel idade e do tipo inteiro, so receberia o primeiro valor do Vetor, ou seja, 31.
+
+//i)como idade agora recebe o valor guardado na memoria de p5, onde o mesmo recebe o valor de p4 incrementado em 1,
+//entao o valor de idade agora é 45;
+
+//j) como idade agora recebe o valor guardado na memoria de p4, onde o mesmo recebe o valor de p5 incrementado em 1,
+//entao o valor de idade agora é 27;
+
+//l) como idade agora recebe o valor guardado na memoria de p4, onde o mesmo recebe o valor de p4 decrementado em 2,
+//entao o valor de idade agora é 31;
+
+//m) como a variavel p5 esta recebendo o valor da memoria para vetor[2] decrementado em 1 unidade,
+//será mostrando no printf o valor 45;
+
+//n) como a variavel p5 esta sendo incrementado em 1 unidade, o printf mostrara 27.
+
 #include <stdio.h>
 
 int main() {
@@ -78,38 +112,4 @@ int main() {
       p5++;
       printf("%d \n", *p5);
       return(0);
-
-      //Respostas:
-      //a) o valor espero para o printf seria 10, mas como foi mudado o valor que estava guardado na memoria p1 para 20
-      //o valor de Valor também e mudado, pois ele está guardado no mesmo lugar da memoria.
-
-      //b) o valor espero para o printf seria 26.5, mas como foi mudado o valor que estava guardado na memoria p2 para 29.0
-      //o valor de Temp também e mudado, pois ele está guardado no mesmo lugar da memoria.
-
-      //c) o printf ira mostrar o primeira letra da palavra Ponteiro.
-
-      //d) o printf ira mostrar a quinta letra da palavra Ponteiro.
-
-      //e) o valor espero para o printf todo o nome Ponteiro, mas como variavel que guarda na memoria p3 e do tipo char,
-      //so aceita uma variavel, ou seja, o valor monstrado no printf sera o primeira letra do nome ponteiro.
-
-      //f) o printf ira mostrar a quinta letra da palavra Ponteiro.
-
-      //g) como decrementou uma unidade, ira aprecer a quarta letra da palavra Ponteiro.
-
-      //h) como a variavel idade e do tipo inteiro, so receberia o primeiro valor do Vetor, ou seja, 31.
-
-      //i)como idade agora recebe o valor guardado na memoria de p5, onde o mesmo recebe o valor de p4 incrementado em 1,
-      //entao o valor de idade agora é 45;
-
-      //j) como idade agora recebe o valor guardado na memoria de p4, onde o mesmo recebe o valor de p5 incrementado em 1,
-      //entao o valor de idade agora é 27;
-
-      //l) como idade agora recebe o valor guardado na memoria de p4, onde o mesmo recebe o valor de p4 decrementado em 2,
-      //entao o valor de idade agora é 31;
-
-      //m) como a variavel p5 esta recebendo o valor da memoria para vetor[2] decrementado em 1 unidade,
-      //será mostrando no printf o valor 45;
-
-      //n) como a variavel p5 esta sendo incrementado em 1 unidade, o printf mostrara 27.
-   }
+}
